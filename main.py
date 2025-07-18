@@ -20,7 +20,9 @@ def _(mo):
     It (seemingly) includes all the Substack posts a given user has opened while signed in,
     whether it was through the Reader app (mobile or [substack.com](https://substack.com)) or a particular publication's website (e.g. [avabear.xyz](https://avabear.xyz) or [seridescent.substack.com](https://seridescent.substack.com))
 
-    The source is [on GitHub](). I wrote slightly more about this on [my website]().
+    The source is [on GitHub](https://github.com/seridescent/substack-reader-history-export). I wrote slightly more about this on [my website](https://seridescent.com/substack-history).
+
+    Use the app view if you aren't playing with the code.
     """
     )
     return
