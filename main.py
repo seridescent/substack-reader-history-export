@@ -117,12 +117,7 @@ def _(completion_threshold, mo):
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(
-        r"""
-    ## implementation
-
-    """
-    )
+    mo.md(r"""## implementation""")
     return
 
 
@@ -229,6 +224,7 @@ def _(datetime, itertools, requests, time):
 
 @app.cell
 def _():
+    # a typed subset of all the attributes of a post object
     TOP_LEVEL_POST_SCHEMA = {
         "title": "string",
         "canonical_url": "string",
